@@ -1,7 +1,136 @@
-body {
+body, main {
+    display: flex;
+    flex-direction: column;
+    background-color: #15272d;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  }
+
+  h2 {
+    font-size: large;
+    color: #94c647;
+  }
+
+  h3 {
+    font-size: medium;
+    color: #94c647;
+  }
+
+  nav {
+    font-size: medium;
+    color: #94c647;
+  }
+
+  li {
+    font-size: small;
+    color: #94c647;
+  }
+
+  footer {
+    align-items: center;
+    height: 75px;
+    background-color: #000;
+    color: #94c647;
+    font-size: large;
+  }
+
+  form {
+    background-color: #222526;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form.label {
+    color: #94c647;
+    font-size: small;
+  }
+
+  form.input {
+    color: #000;
+    background-color: #EEF6F7;
+    font-size: small;
+  }
+
+  form.textarea {
+    color: #000;
+    background-color: #EEF6F7;
+    font-size: small;
+  }
+
+  button {
+    color: #EEF6F7;
+    background-color: #309136;
+    font-size: small;
+    cursor: pointer;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: #000;
+    color: #94c647;
+  }
+
+  header.li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-size: medium;
+  }
+
+  .index-nav {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-size: larger;
+  }
+
+  .email-credits-display {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+
+  .disclaimer {
+    background-color: #EEF6F7;
+    color: #000;
+    justify-content: center;
+  }
+
+  .create-listing-container {
+    justify-self: center;
+  }
+
+  .loginform-container {
+    justify-self: center;
+  }
+
+  .regform-container {
+    justify-self: center;
+  }
+
+  .update-avatar-form {
+    justify-self: center;
+  }
+
+  .search-form {
+    justify-self: center;
+    font-size: small;
+  }
+
+  .footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 150px;
+    max-height: 75px;
   }
 
   .listing-carousel {
@@ -10,13 +139,28 @@ body {
     justify-content: space-between;
     margin-top: 10px;
   }
-  
-  .carousel-images {
-    width: 300px;
-    height: 200px;
-    position: relative;
+
+  .listing-carousel.button {
+    color: #EEF6F7;
+    background-color: #309136;
+    justify-content: center;
+    font-size: small;
+  }
+
+  .listing-carousel.img {
+    justify-self: center;
+    max-width: 250px;
+    max-height: 250px;
   }
   
-  button {
-    cursor: pointer;
+  .carousel-images {    
+    position: relative;
+  }
+
+  .listing-container {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 25%;
+    height: auto;
   }
