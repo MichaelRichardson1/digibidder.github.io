@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .listing-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .carousel-images {
+    width: 300px;
+    height: 200px;
+    position: relative;
+  }
+  
+  button {
+    cursor: pointer;
+  }
