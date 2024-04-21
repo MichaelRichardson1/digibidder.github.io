@@ -41,18 +41,18 @@ body, main {
     flex-direction: column;
   }
 
-  form.label {
+  form label {
     color: #94c647;
     font-size: small;
   }
 
-  form.input {
+  form input {
     color: #000;
     background-color: #EEF6F7;
     font-size: small;
   }
 
-  form.textarea {
+  form textarea {
     color: #000;
     background-color: #EEF6F7;
     font-size: small;
@@ -73,24 +73,35 @@ body, main {
     color: #94c647;
   }
 
-  header.li {
+  header li {
     display: flex;
     flex-direction: row;
     text-decoration: underline;
     font-size: medium;
   }
 
-  .index-nav {
+  .index-nav {    
+    width: 50%;
+    height: 50%;
+    align-self: center;
+  }
+
+  .index-nav li {
+    font-size: larger;
+    color: #94c647;
     display: flex;
     flex-direction: row;
     text-decoration: underline;
-    font-size: larger;
   }
 
   .email-credits-display {
     display: flex;
     flex-direction: column;
-    font-size: small;
+    font-size: medium;
+    justify-self: center;
+    justify-content: center;
+    color: #94c647;
+    background-color: #222526;
   }
 
   .disclaimer {
@@ -100,19 +111,126 @@ body, main {
   }
 
   .create-listing-container {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
+    justify-content: center;
+    width: 60%;
+    padding: 15px;
+    background-color: #222526;
+  }
+
+  .create-listing-container label {
+    color: #94c647;
+    padding: 10px;
+  }
+
+  .create-listing-container input {
+    background-color: #EEF6F7;
+    padding: 10px;
+    width: 60%;
+    justify-content: center;
+  }
+
+  .create-listing-container button {
+    width: 20%;
+    justify-self: center;
+    justify-content: center;
+    padding: 15px;
   }
 
   .loginform-container {
     justify-self: center;
+    justify-content: center;
+    width: 60%;
+    padding: 15px;
+  }
+
+  .loginform-container label {
+    color: #94c647;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .loginform-container input {
+    color: #000;
+    background-color: #EEF6F7;
+  }
+
+  .loginform-container button {
+    width: 25%;
   }
 
   .regform-container {
     justify-self: center;
+    justify-content: center;
+    width: 60%;
+    padding: 15px;
+  }
+
+  .regform-container label {
+    color: #94c647;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .regform-container input {
+    color: #000;
+    background-color: #EEF6F7;
+  }
+
+  .members-list {
+    width: 90%;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .members-item {
+    color: #94c647;
+    background-color: #222526;
+    width: 30%;
+  }
+
+  .members-item input {
+    justify-self: center;
+    width: 30%;
+    background-color: #EEF6F7;
+    color: #000;
+  }
+
+  .members-item button {
+    justify-self: center;
+    justify-content: center;
+    width: 30%;
   }
 
   .update-avatar-form {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
+    width: 60%;
+    justify-content: center;
+  }
+
+  .update-avatar-form input {
+    width: 50%;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .update-avatar-form button {
+    width: 25%;
+    justify-content: center;
+    justify-self: center;
+  }
+
+  .update-avatar-form label {
+    color: #94c647;
+    padding-left: 15px;
   }
 
   .search-form {
@@ -128,6 +246,10 @@ body, main {
     text-align: center;
   }
 
+  .footer-container p {
+    padding-top: 1rem;
+  }
+
   .logo {
     max-width: 150px;
     max-height: 75px;
@@ -140,14 +262,14 @@ body, main {
     margin-top: 10px;
   }
 
-  .listing-carousel.button {
+  .listing-carousel button {
     color: #EEF6F7;
     background-color: #309136;
     justify-content: center;
     font-size: small;
   }
 
-  .listing-carousel.img {
+  .listing-carousel img {
     justify-self: center;
     max-width: 250px;
     max-height: 250px;
@@ -164,3 +286,24 @@ body, main {
     width: 25%;
     height: auto;
   }
+
+  .visitor-listings {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-self: center;
+  }
+
+  .listing-card {
+    background-color: #222526;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-self: center;
+  }
+
+  .listing-card p {
+    color: #94c647;
+  } 
