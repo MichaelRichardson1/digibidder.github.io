@@ -279,29 +279,22 @@ body, main {
     position: relative;
   }
 
-  .listing-container {
-    display: flex;
-    flex-direction: row;
+  .listing-container { 
     justify-self: center;
     width: 25%;
     height: auto;
   }
 
   .visitor-listings {
-    display: flex;
-    flex-direction: column;
     width: 90%;
     justify-self: center;
+    justify-content: center;
   }
 
   .listing-card {
+    color: #94c647;
     background-color: #222526;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 30%;
-    justify-self: center;
   }
 
   .listing-card p {
